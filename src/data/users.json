@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "purpose": "Academic frontend demo only",
+    "passwordScheme": "SHA-256(salt + password)",
+    "notice": "Client-side hashing is used only to avoid plain-text demo passwords in source. It is not production authentication."
+  },
+  "users": [
+    {
+      "id": "usr-demo-001",
+      "username": "PixelPlayer",
+      "email": "user@gamehive.local",
+      "salt": "gamehive-user-2026-",
+      "passwordHash": "c00475059ace3e734792d50ec3ebbb05e9195472758604c2cdc2c710acc1f832",
+      "role": "user",
+      "status": "active",
+      "reputation": 42,
+      "verifiedCritic": false,
+      "joined": "2026-01-15",
+      "bio": "Exploro mundos raros, indies y RPGs con sistemas que dejan huella."
+    },
+    {
+      "id": "crt-demo-001",
+      "username": "Alex Rivas",
+      "email": "critic@gamehive.local",
+      "salt": "gamehive-critic-2026-",
+      "passwordHash": "9da60951f6c89889b83b3c4f52417d0c532de99ccf606879e8b98b51b86a74d2",
+      "role": "critic",
+      "status": "active",
+      "reputation": 86,
+      "verifiedCritic": true,
+      "joined": "2025-08-08",
+      "bio": "Crítica de diseño sistémico, narrativa interactiva y accesibilidad.",
+      "specialties": [
+        "Diseño sistémico",
+        "Narrativa interactiva",
+        "Accesibilidad",
+        "RPG e indies"
+      ]
+    },
+    {
+      "id": "adm-demo-001",
+      "username": "Admin Hive",
+      "email": "admin@gamehive.local",
+      "salt": "gamehive-admin-2026-",
+      "passwordHash": "2a8dbbedfdd05e41169122e23f4a9012aa85904ebecdd851586cd6889db12938",
+      "role": "admin",
+      "status": "active",
+      "reputation": 100,
+      "verifiedCritic": false,
+      "joined": "2025-07-01",
+      "bio": "Cuenta de administración para la demostración académica."
+    }
+  ]
+}
