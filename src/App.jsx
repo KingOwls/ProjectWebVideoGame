@@ -1,0 +1,26 @@
+import { HashRouter, Route, Routes, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
+import { AuthProvider } from './context/AuthContext'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import ProtectedRoute from './components/ProtectedRoute'
+import HomePage from './pages/HomePage'
+import ExplorePage from './pages/ExplorePage'
+import SearchResultsPage from './pages/SearchResultsPage'
+import GameDetailPage from './pages/GameDetailPage'
+import LoginPage from './pages/LoginPage'
+import RegisterPage from './pages/RegisterPage'
+import ReviewEditorPage from './pages/ReviewEditorPage'
+import ProfilePage from './pages/ProfilePage'
+import LibraryPage from './pages/LibraryPage'
+import CriticProfilePage from './pages/CriticProfilePage'
+import CriticApplicationPage from './pages/CriticApplicationPage'
+import AdminDashboardPage from './pages/AdminDashboardPage'
+import AdminGamesPage from './pages/AdminGamesPage'
+import AdminUsersPage from './pages/AdminUsersPage'
+import AdminReportsPage from './pages/AdminReportsPage'
+import NotFoundPage from './pages/NotFoundPage'
+
+function ScrollToTop(){const {pathname}=useLocation();useEffect(()=>window.scrollTo(0,0),[pathname]);return null}
+function Shell(){const {pathname}=useLocation();const auth=pathname==='/login'||pathname==='/register';return <><ScrollToTop/>{!auth&&<Navbar/>}<Routes><Route path="/" element={<HomePage/>}/><Route path="/explore" element={<ExplorePage/>}/><Route path="/search" element={<SearchResultsPage/>}/><Route path="/game/:id" element={<GameDetailPage/>}/><Route path="/login" element={<LoginPage/>}/><Route path="/register" element={<RegisterPage/>}/><Route path="/review/:gameId" element={<ProtectedRoute roles={['user','critic']}><ReviewEditorPage/></ProtectedRoute>}/><Route path="/profile" element={<ProtectedRoute><ProfilePage/></ProtectedRoute>}/><Route path="/library" element={<ProtectedRoute roles={['user','critic']}><LibraryPage/></ProtectedRoute>}/><Route path="/critic" element={<CriticProfilePage/>}/><Route path="/critic/apply" element={<ProtectedRoute roles={['user']}><CriticApplicationPage/></ProtectedRoute>}/><Route path="/admin" element={<ProtectedRoute roles={['admin']}><AdminDashboardPage/></ProtectedRoute>}/><Route path="/admin/games" element={<ProtectedRoute roles={['admin']}><AdminGamesPage/></ProtectedRoute>}/><Route path="/admin/users" element={<ProtectedRoute roles={['admin']}><AdminUsersPage/></ProtectedRoute>}/><Route path="/admin/reports" element={<ProtectedRoute roles={['admin']}><AdminReportsPage/></ProtectedRoute>}/><Route path="*" element={<NotFoundPage/>}/></Routes>{!auth&&!pathname.startsWith('/admin')&&<Footer/>}</>}
+export default function App(){return <HashRouter><AuthProvider><Shell/></AuthProvider></HashRouter>}
