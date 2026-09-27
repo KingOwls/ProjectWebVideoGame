@@ -1,0 +1,269 @@
+{
+  "reviews": [
+    {
+      "id": "rev-001",
+      "gameId": "gh-001",
+      "userId": "crt-demo-001",
+      "author": "Alex Rivas",
+      "role": "critic",
+      "verified": true,
+      "reputation": 86,
+      "rating": 9.2,
+      "title": "El espacio como una conversación",
+      "body": "Nebula Drift entiende que explorar no consiste solo en abrir el mapa. Sus mejores momentos aparecen cuando una mecánica sencilla cambia el significado de una decisión tomada horas antes.",
+      "helpful": 328,
+      "date": "2026-06-12",
+      "status": "published",
+      "criticAnalysis": {
+        "platform": "PC",
+        "hoursPlayed": 46,
+        "completedGame": "yes",
+        "scores": {
+          "gameplay": 9,
+          "story": 9,
+          "art": 9.5,
+          "sound": 8.5,
+          "performance": 8,
+          "accessibility": 8.5,
+          "content": 9,
+          "value": 9
+        },
+        "calculatedScore": 8.8,
+        "summary": "Una aventura espacial que convierte la exploración en una cadena de decisiones y recuerdos con verdadero peso.",
+        "technicalIssues": [
+          "Bugs leves"
+        ],
+        "accessibility": [
+          "Subtítulos",
+          "Tamaño de texto",
+          "Controles configurables"
+        ],
+        "valueVerdict": "Excelente",
+        "pros": [
+          "Exploración con consecuencias",
+          "Dirección artística consistente",
+          "Narrativa ambiental"
+        ],
+        "cons": [
+          "Algunas rutas tardan en despegar",
+          "Pequeños errores de interfaz"
+        ],
+        "recommendedFor": [
+          "RPG",
+          "Narrativa",
+          "Exploración"
+        ],
+        "reviewCopyProvided": false,
+        "scoreReason": ""
+      }
+    },
+    {
+      "id": "rev-002",
+      "gameId": "gh-001",
+      "userId": "usr-demo-001",
+      "author": "PixelPlayer",
+      "role": "user",
+      "verified": false,
+      "reputation": 42,
+      "rating": 8.7,
+      "title": "Me quedé por las pequeñas historias",
+      "body": "Llegué por la exploración y terminé guardando capturas de estaciones perdidas, cartas y conversaciones. El combate funciona, pero la atmósfera es lo que realmente sostiene el viaje.",
+      "helpful": 112,
+      "date": "2026-06-19",
+      "status": "published"
+    },
+    {
+      "id": "rev-003",
+      "gameId": "gh-002",
+      "userId": "crt-demo-001",
+      "author": "Alex Rivas",
+      "role": "critic",
+      "verified": true,
+      "reputation": 86,
+      "rating": 8.8,
+      "title": "Cuando el escenario también pelea",
+      "body": "Ashen Vale usa su verticalidad con intención. Sus jefes son memorables y obligan a leer el espacio, aunque algunas rutas secundarias repiten estructuras.",
+      "helpful": 204,
+      "date": "2026-02-02",
+      "status": "published",
+      "criticAnalysis": {
+        "platform": "PlayStation 5",
+        "hoursPlayed": 34,
+        "completedGame": "yes",
+        "scores": {
+          "gameplay": 9,
+          "story": 8,
+          "art": 9,
+          "sound": 8.5,
+          "performance": 8,
+          "accessibility": 7.5,
+          "content": 8.5,
+          "value": 8.5
+        },
+        "calculatedScore": 8.4,
+        "summary": "El diseño vertical convierte cada enfrentamiento en una lectura del escenario, aunque varias rutas secundarias reciclan ideas.",
+        "technicalIssues": [],
+        "accessibility": [
+          "Subtítulos",
+          "Controles configurables",
+          "Dificultad configurable"
+        ],
+        "valueVerdict": "Bueno",
+        "pros": [
+          "Jefes memorables",
+          "Uso inteligente de la verticalidad",
+          "Combate legible"
+        ],
+        "cons": [
+          "Rutas secundarias repetitivas",
+          "Opciones de accesibilidad mejorables"
+        ],
+        "recommendedFor": [
+          "Acción",
+          "Exploración"
+        ],
+        "reviewCopyProvided": true,
+        "scoreReason": "La nota editorial prioriza la calidad del diseño de encuentros por encima de la repetición secundaria."
+      }
+    },
+    {
+      "id": "rev-004",
+      "gameId": "gh-005",
+      "userId": "usr-demo-001",
+      "author": "PixelPlayer",
+      "role": "user",
+      "verified": false,
+      "reputation": 42,
+      "rating": 9.1,
+      "title": "Un descanso que no se siente vacío",
+      "body": "Sapphire Skies logra ser tranquilo sin volverse automático. Siempre hay una pequeña ruta que optimizar o una isla que investigar.",
+      "helpful": 89,
+      "date": "2026-07-05",
+      "status": "published"
+    }
+  ],
+  "activity": [
+    {
+      "id": "act-001",
+      "type": "review",
+      "actor": "Alex Rivas",
+      "text": "publicó un análisis de Nebula Drift",
+      "gameId": "gh-001",
+      "date": "2026-09-22T18:30:00"
+    },
+    {
+      "id": "act-002",
+      "type": "library",
+      "actor": "PixelPlayer",
+      "text": "añadió Sapphire Skies a favoritos",
+      "gameId": "gh-005",
+      "date": "2026-09-22T15:05:00"
+    },
+    {
+      "id": "act-003",
+      "type": "helpful",
+      "actor": "MiraNova",
+      "text": "marcó una reseña como útil",
+      "gameId": "gh-002",
+      "date": "2026-09-21T23:14:00"
+    },
+    {
+      "id": "act-004",
+      "type": "critic",
+      "actor": "GameHive",
+      "text": "verificó un nuevo perfil de crítico",
+      "date": "2026-09-21T14:40:00"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep-024",
+      "gameId": "gh-004",
+      "contentType": "review",
+      "content": "Lenguaje ofensivo en una reseña",
+      "reporter": "PixelPlayer",
+      "reason": "Conducta abusiva",
+      "status": "pending",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "rep-023",
+      "gameId": "gh-001",
+      "contentType": "review",
+      "content": "Posible spoiler sin etiqueta",
+      "reporter": "LunaAstral",
+      "reason": "Spoiler",
+      "status": "pending",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "rep-022",
+      "gameId": "gh-006",
+      "contentType": "profile",
+      "content": "Perfil con enlaces repetitivos",
+      "reporter": "MiraNova",
+      "reason": "Spam",
+      "status": "approved",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "rep-021",
+      "gameId": "gh-005",
+      "contentType": "review",
+      "content": "Reporte revisado sin incumplimiento",
+      "reporter": "Foxbyte",
+      "reason": "Información falsa",
+      "status": "rejected",
+      "date": "2026-09-20"
+    }
+  ],
+  "library": {
+    "usr-demo-001": [
+      {
+        "gameId": "gh-001",
+        "state": "playing",
+        "favorite": true,
+        "progress": 62
+      },
+      {
+        "gameId": "gh-005",
+        "state": "favorite",
+        "favorite": true,
+        "progress": 100
+      },
+      {
+        "gameId": "gh-002",
+        "state": "wishlist",
+        "favorite": false,
+        "progress": 0
+      },
+      {
+        "gameId": "gh-007",
+        "state": "backlog",
+        "favorite": false,
+        "progress": 0
+      }
+    ],
+    "crt-demo-001": [
+      {
+        "gameId": "gh-001",
+        "state": "completed",
+        "favorite": true,
+        "progress": 100
+      },
+      {
+        "gameId": "gh-002",
+        "state": "completed",
+        "favorite": false,
+        "progress": 100
+      },
+      {
+        "gameId": "gh-005",
+        "state": "playing",
+        "favorite": true,
+        "progress": 81
+      }
+    ]
+  },
+  "criticApplications": []
+}
