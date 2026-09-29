@@ -4,6 +4,21 @@ Plataforma web comunitaria para descubrir videojuegos, consultar información re
 
 > **Estado actual del paquete:** documentación funcional + mockups de referencia + frontend ejecutable en React/Vite. La implementación usa JSON como respaldo local, autenticación simulada por rol y un adaptador opcional a RAWG. No incluye backend ni base de datos de producción.
 
+## Autores
+
+- **Jorge Luis Osorio**
+- **Nicolás García**
+
+## Proyecto desplegado
+
+La versión pública de GameHive se encuentra disponible en:
+
+**https://kingowls.github.io/ProjectWebVideoGame/**
+
+Repositorio del proyecto:
+
+**https://github.com/KingOwls/ProjectWebVideoGame**
+
 ---
 
 ## 1. Propósito del proyecto
@@ -593,33 +608,51 @@ Criterios mínimos:
 
 ## 24. Uso de Inteligencia Artificial en el proyecto
 
-La IA se utilizó como **herramienta de apoyo**, no como sustituto de la toma de decisiones del equipo.
+### Apoyos utilizados durante el desarrollo
 
-### Usos realizados o apropiados para documentar
+La Inteligencia Artificial se utilizó como herramienta de apoyo durante diferentes etapas del proyecto. Su uso estuvo orientado a complementar el análisis, la planificación, la depuración y la documentación, mientras que las decisiones finales y la validación fueron realizadas por los integrantes del equipo.
 
-1. **Estructuración del problema:** organización del concepto de GameHive, objetivos, alcance y diferenciadores.
-2. **Análisis de requisitos:** apoyo para convertir ideas generales en requisitos funcionales/no funcionales e historias de usuario.
-3. **Arquitectura de información:** propuesta de relaciones entre Home, exploración, resultados, detalle, perfiles y administración.
-4. **Revisión de consistencia:** detección de elementos que conviene unificar entre documento y mockups.
-5. **Diseño técnico:** apoyo para separar datos externos, datos comunitarios, componentes React y servicios.
-6. **Planificación de pruebas:** generación y refinamiento de escenarios funcionales y estados de error.
-7. **Documentación:** elaboración y revisión de README, instrucciones Git y explicación de decisiones.
-8. **Apoyo a prototipado:** formulación de ideas y criterios para pantallas, componentes y flujos visuales.
+Los principales apoyos fueron:
 
-### Qué debe validar el equipo manualmente
+1. **Definición del problema y alcance:** organización de la idea de GameHive, objetivos, requisitos funcionales y requisitos no funcionales.
 
-- que las pantallas realmente cumplan los requisitos;
-- que las APIs elegidas sigan disponibles y sus términos permitan el uso previsto;
-- que el código compile y funcione;
-- que los datos mostrados sean correctos;
-- que no existan secretos en el repositorio;
-- que cada integrante entienda y pueda defender las decisiones implementadas.
+2. **Arquitectura de información:** revisión de la relación entre Inicio, Exploración, Resultados, Detalle de videojuego, Biblioteca, Perfiles y Administración.
 
-### Declaración sugerida para entrega
+3. **Diseño del rol Crítico:** apoyo para diferenciar las reseñas comunitarias de las críticas profesionales mediante un cuestionario más estructurado.
 
-> Se utilizó Inteligencia Artificial como herramienta de apoyo para organizar requisitos, explorar alternativas de diseño, revisar consistencia, proponer estructuras técnicas y mejorar la documentación. Las decisiones finales, la selección del alcance, la validación del prototipo y la implementación son responsabilidad del equipo. El contenido generado con apoyo de IA fue revisado antes de incorporarse al proyecto.
+4. **Sistema de evaluación profesional:** definición de categorías como jugabilidad, narrativa, arte, sonido, rendimiento, accesibilidad, contenido y relación calidad/precio.
 
-Esta redacción es preferible a afirmar que la IA "hizo el proyecto", porque refleja su papel real como asistencia de análisis y documentación.
+5. **Solicitud para convertirse en crítico:** estructuración del formulario de solicitud, revisión administrativa y cambio de rol dentro de la demostración.
+
+6. **Autenticación de demostración:** apoyo para organizar usuarios locales, roles, sesiones simuladas y datos almacenados mediante JSON.
+
+7. **Organización del frontend:** sugerencias para separar páginas, componentes reutilizables, servicios, contextos, utilidades y datos.
+
+8. **Depuración técnica:** apoyo para interpretar y solucionar errores relacionados con Node.js, npm, Vite, dependencias y configuración del entorno.
+
+9. **Git y GitHub:** apoyo para definir ramas de trabajo, Conventional Commits, selección específica de archivos por commit, Pull Requests e integración del trabajo de los integrantes.
+
+10. **GitHub Pages:** apoyo para configurar Vite y GitHub Actions para construir y desplegar automáticamente el proyecto.
+
+11. **Pruebas funcionales:** propuesta de escenarios para comprobar autenticación, permisos por rol, navegación, críticas, administración y funcionamiento general.
+
+12. **Documentación:** apoyo para organizar y mejorar el README, las explicaciones técnicas y las guías de trabajo del repositorio.
+
+### Responsabilidad del equipo
+
+El contenido generado o sugerido con apoyo de IA fue revisado antes de incorporarse al proyecto.
+
+La IA no sustituyó la responsabilidad de los integrantes sobre:
+
+- decisiones de diseño;
+- implementación del código;
+- pruebas de funcionamiento;
+- selección del alcance;
+- validación de resultados;
+- manejo del repositorio;
+- sustentación académica.
+
+Los integrantes deben comprender y poder explicar las funcionalidades implementadas y las decisiones tomadas durante el desarrollo.
 
 ---
 
