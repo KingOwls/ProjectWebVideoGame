@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "name": "GameHive",
+    "tagline": "Más que juegos, son nuevas historias por vivir",
+    "accent": "#6d5dfc"
+  },
+  "features": {
+    "rawgEnabled": true,
+    "showProfessionalScore": true,
+    "allowGuestBrowse": true,
+    "allowLocalReviews": true,
+    "allowReports": true
+  },
+  "reputation": {
+    "lowMax": 39,
+    "mediumMax": 69,
+    "labels": {
+      "low": "Cuenta nueva",
+      "medium": "Reputación media",
+      "high": "Reputación alta"
+    }
+  },
+  "moderationStates": ["pending", "approved", "rejected", "removed"],
+  "libraryStates": ["favorite", "wishlist", "playing", "completed", "backlog"],
+  "dataPolicy": {
+    "catalogProvider": "RAWG",
+    "communityProvider": "GameHive JSON",
+    "fallbackMode": "local-json"
+  }
+}
